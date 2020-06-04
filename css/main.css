@@ -40,7 +40,7 @@ footer {
     margin-top: -30px;
     margin-left: -30px;
 }
-
+/*************页眉区******************/
 .bg-nav {
     background:  #65AAF8;
     border-bottom: 1px solid #f3f3f3;
@@ -84,6 +84,9 @@ nav li a {
     font-size: 11px;
     font-weight: bold;
 }
+/*************页眉区******************/
+
+/****************home******************8*/
 .imghead {
 	width: 150px;
 	height: 150px;
@@ -106,12 +109,13 @@ nav li a {
   box-shadow: 0 0 0 15px white;
   opacity: 60%;
 }
+
 #home {
     background: url(../images/IMG_20190211_112601.jpg);
     background-size: cover;
     height: 100vh;
 }
-
+/****************home******************8*/
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -150,6 +154,8 @@ nav li a {
     display: table-cell;
     vertical-align: middle;
 }
+
+/********************个人经历experience区********************/
 #experience.sec1{
 	background-image: url("../images/seaback.jpg");
 	background-size: 100% 110%;
@@ -180,6 +186,7 @@ nav li a {
 	background-color: 	#C4DDFB; 
 	background-image: 	url("../images/123.jpg");
 }
+/*心理委员工作展示链接*/
 #psy a {
 	font-size: 16px;
     color: #777;
@@ -198,6 +205,11 @@ nav li a {
 	background-color: 	#C4DDFB; 
 	background-image: 	url("../images/123.jpg");
 }
+/*心理委员工作展示链接*/
+
+/********************个人经历experience区********************/
+
+/********************个人项目projects区**********************/
 #projects {
     padding: 100px 0;
 }
@@ -257,6 +269,8 @@ nav li a {
 	background-color: #FEB6F2;
 	opacity: 90%;
 }
+/********************个人项目projects区**********************/
+
 li{
 	list-style: none;
 }

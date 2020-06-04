@@ -1,6 +1,7 @@
 body{
 	min-width:1199px;
 }
+/**************页眉区********************/
 .bg-nav {
     background:  #39A5F7;
     border-bottom: 1px solid #f3f3f3;
@@ -17,10 +18,13 @@ body{
     z-index: 1030;
 	background-color: light-blue;	
 }
+/**************页眉区********************/
 #allcontent{
 	margin-top:60px;
 	height:2460px;
 }
+
+/*****************边栏区*********************/
 #side{
 	background-color:  #f3f3f3;
 	opacity: 80%;
@@ -173,13 +177,16 @@ body{
 .hover3:hover~.checked .menu{
 	top: -140px;
 }
+/*****************边栏区*********************/
 
+/*************内容介绍introduction*******************/
 .introduction{
 	border-top:5px dashed #39A5F7;
 	border-bottom: 0px;
 	width:1050px;
 	height:250px;
 }
+/*************内容介绍introduction*******************/
 #main{
 	width:75%;
 	float:right;
@@ -225,7 +232,7 @@ body{
 }
 }
 
-
+/******活动展示部分******/
 .contain{
 	width: 300px;
 	height: auto;
@@ -324,9 +331,12 @@ body{
 	padding: 0 auto;
 	margin: 0 auto;
 }
+/******活动展示部分******/
+
 li{
 	list-style:none;
 }
+/***********页脚区**********/
 footer {
   background-color: #39A5F7;
   color:            #425BB5;

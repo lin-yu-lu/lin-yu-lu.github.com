@@ -6,14 +6,7 @@ body {
   min-width:        899px;
   background-image: url("../images/seaback.jpg");
 }
-
-/* 
-	height messes up the headers in the blog in the articles
-	it's only appropriate for the top header.
-	add a class (new with blog)
-	Affects the 3 #header rules for the main header below
-	In HTML: add class="top" to main header in index.html and blog.html
-*/
+/*************页眉区*****************/
 img{
 	width:300px;
 	height:300px;
@@ -50,6 +43,7 @@ header.top {
   transform: scale(0.7);
   box-shadow: 0 0 0 15px white;
 }
+/*************页眉区*****************/
 
 div#tableContainer {
 	display: table;
@@ -89,7 +83,7 @@ aside {
   vertical-align: 	top;
   color:			#90C2FA;
 }
-
+/*************页脚区***************/
 footer {
   background-color: #65AAF8;
   color:            #425BB5;
@@ -98,7 +92,7 @@ footer {
   margin: 0px 10px 10px 10px;
   font-size:        90%;
 }
-
+/*************页脚区***************/
 h1 {
   font-size:        120%;
   color:            #425BB5;
@@ -143,10 +137,6 @@ nav ul li a:link, nav ul li a:visited {
 	border-bottom: none;
 	font-weight: bold;
 
-/*
-	text-shadow: 1px 1px 3px #e2c2c2; 
-	text-transform: uppercase;
-*/
 }
 nav ul li.selected {
 	background-color: #c8b99c;
