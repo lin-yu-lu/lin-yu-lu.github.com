@@ -65,7 +65,7 @@ section#cc {
 	color:			#90C2FA;
 }
 
-/* added section#blog for blog */
+/* added section#blog */
 section#main, section#blog {
   display: 			table-cell;
   background:       #AFD6FE  top left;
@@ -118,7 +118,7 @@ a:visited {
   border-bottom:    thin dotted #675c47;
 }
 
-
+/*************导航区*******************/
 nav {
     background-color: #efe5d0;
 	margin: 10px 10px 0px 10px;
